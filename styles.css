@@ -10,6 +10,10 @@ header, footer {
   color: #fff;
   text-align: center;
   padding: 1em 0;
+  background-image: url('images/Header.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
 }
 
 nav ul {
@@ -56,3 +60,8 @@ input, select, button {
   padding: 8px;
   margin-bottom: 10px;
 }
+
+header img {
+    max-height: 200px; /* Ajuste o valor conforme necessário */
+    width: 1200px; /* Mantém a proporção da imagem */
+  }
