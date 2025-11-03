@@ -2,7 +2,29 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
+  margin-top: 5rem;
   padding: 0;
+  padding-bottom: 5rem;
+  background-image: url('./images/fundo_principal.jpg');
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 5rem;
+}
+
+header {
+  display: flexbox;
+  align-items: left;
+  position: fixed;
+  top: 0;
+    
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px 0;
+  padding-top: 1rem;
 }
 
 header, footer {
@@ -10,10 +32,14 @@ header, footer {
   color: #fff;
   text-align: center;
   padding: 1em 0;
+  padding-top: 0;
   background-image: url('images/Header.png');
   background-size: cover;
   background-position: center;
   width: 100%;
+  background-repeat: no-repeat;
+  max-height: 8rem;
+  margin: 0;
 }
 
 nav ul {
@@ -33,6 +59,7 @@ nav ul li a {
 
 main {
   padding: 20px;
+  
 }
 
 form {
@@ -65,3 +92,9 @@ header img {
     max-height: 200px; /* Ajuste o valor conforme necessário */
     width: 1200px; /* Mantém a proporção da imagem */
   }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  max-height: 3rem;
+}
