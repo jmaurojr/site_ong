@@ -8,6 +8,7 @@
 }
 
 body {
+  
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
@@ -71,18 +72,24 @@ nav ul li a {
 
 main {
   padding: 20px;
+  display: grid;
+  grid-template-rows: auto auto auto; 
   
 }
 
 form {
   max-width: 600px;
   margin: 0 auto;
+  place-items: center;
 }
 
 fieldset {
   border: 1px solid #ccc;
   padding: 40px;
   margin-bottom: 15px;
+  margin-top: 1px;
+  width: 200%;
+  position: auto;
 }
 
 legend {
