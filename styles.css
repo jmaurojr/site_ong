@@ -1,16 +1,27 @@
+#bodycadastro {
+  margin-top: 15%;
+}
+
+#bodyinicio, #bodyprojetos {
+  max-height: 60vh;
+  
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
-  margin-top: 5rem;
+  margin-top: 200px;
   padding: 0;
   padding-bottom: 5rem;
   background-image: url('./images/fundo_principal.jpg');
-  opacity: 0.90;
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 5rem;
+  color: #fff;
+  text-shadow: 0px 1px 4px #000000;
+  height: 100vh;
+  max-height: 80%;
 }
 
 header {
@@ -18,7 +29,7 @@ header {
   align-items: left;
   position: fixed;
   top: 0;
-    
+  opacity: 1;      
 }
 
 header h1 {
@@ -40,6 +51,7 @@ header, footer {
   background-repeat: no-repeat;
   max-height: 8rem;
   margin: 0;
+  opacity: 1;
 }
 
 nav ul {
@@ -91,6 +103,7 @@ input, select, button {
 header img {
     max-height: 200px; /* Ajuste o valor conforme necessário */
     width: 1200px; /* Mantém a proporção da imagem */
+        
   }
 
 footer {
@@ -98,3 +111,7 @@ footer {
   bottom: 0;
   max-height: 3rem;
 }
+
+img { 
+  opacity: 0.3;
+  } 
